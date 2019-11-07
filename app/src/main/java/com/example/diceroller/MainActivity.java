@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     private int numberGuessed;
     private int diceNum;
+    private int score = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,6 +63,8 @@ public class MainActivity extends AppCompatActivity {
                 tv.setText(String.valueOf(rollDice()));
             }
         });
+        //int num = 0;
+        //int userscore = checkVals(num);
     }
 
     @Override
@@ -124,7 +127,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void checkVals() {
-        int score = 0;
         if(numberGuessed == diceNum) {
             score++;
         }
