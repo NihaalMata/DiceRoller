@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity {
             score++;
         }
         TextView tv =  this.findViewById(R.id.textView3);
-        tv.setText(String.valueOf(score));
+        tv.setText("Your score is:" + String.valueOf(score));
     }
 
 }
