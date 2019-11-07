@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
             tv.setText("If you won a million dollars, what is the first thing you would buy?");
         }
         else if (num == 5){
-            tv.setText("If you could spaned the day with one fictional character, who would it be?");
+            tv.setText("If you could spend the day with one fictional character, who would it be?");
         }
         else if (num == 6){
             tv.setText("If you found a magic lantern and a genie gave you three wishes, what would you wish?");
@@ -128,8 +128,8 @@ public class MainActivity extends AppCompatActivity {
         if(numberGuessed == diceNum) {
             score++;
         }
-        //TextView tv =  this.findViewById(R.id.textView3);
-        //tv.setText(score);
+        TextView tv =  this.findViewById(R.id.textView3);
+        tv.setText(String.valueOf(score));
     }
 
 }
