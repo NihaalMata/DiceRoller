@@ -111,7 +111,6 @@ public class MainActivity extends AppCompatActivity {
             tv.setText("If you found a magic lantern and a genie gave you three wishes, what would you wish?");
         }
     }
-    
 
     public int rollDice(){
         Random r = new Random();
